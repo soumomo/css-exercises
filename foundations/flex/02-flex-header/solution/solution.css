@@ -7,7 +7,12 @@
   font-size: 48px;
   font-weight: 900;
   color: tomato;
-  background: white;
+  background: white;  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  flex-wrap:nowrap;
+  flex-basis:auto;
+  margin:10px;
   padding: 4px 32px;
 }
 
