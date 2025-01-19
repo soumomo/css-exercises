@@ -24,3 +24,22 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/*Solution ....i really did many mistakes in this one , in tried to apply flexbox , idk everywhere!! ....whereas things shouldn't have been thought that way , even the basic css functions would do the job and a small portion of flexbox property would create the final output , so keep in mind for the same in future projects , a gppd practice indeed......i've added the backup_index.html here , so that i can get back to my mistakes in future*/ 
+body{
+  text-align: center;
+}
+
+.title{
+  margin-bottom:32px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info{
+  max-width: 200px;
+}
